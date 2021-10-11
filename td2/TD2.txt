@@ -1,0 +1,24 @@
+EXO1 :
+
+
+
+1) 
+Output :
+42
+42
+24
+24
+24
+24
+
+
+meth() de la classe Mere retourne 42 d'où les deux premieres lignes, meth() de la classe Fille retourne 24 d'où les deux
+prochaines lignes, et les deux dernières lignes sont 24 et 24 car on instancie un objet de la classe Fille() qu'on met dans un
+objet Mere, c'est comme mettre Object x = new String();	
+
+
+2)
+Dans la classe Fille, un objet de la classe Fille peut avoir accès à deux méthodes meth(), celle de la fille (this), et celle
+de la mère avec le mot clé (super).
+
+3)
