@@ -22,3 +22,15 @@ Dans la classe Fille, un objet de la classe Fille peut avoir accès à deux mét
 de la mère avec le mot clé (super).
 
 3)
+
+EXO 2:
+
+
+3)Une redéfinition est lorsque nous changeons une méthode qui appartient a une classe mère et une surcharge peut s'opérer dans une
+même classe, c'est à dire que pour une même méthode, nous avons deux moyens de l'appeler, exemple c(Mère mère) et c(Fille fille)
+
+4)expliqué en commentaire
+
+
+Exo 3:
+
