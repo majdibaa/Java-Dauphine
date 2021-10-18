@@ -1,0 +1,33 @@
+TD3
+
+
+Exo1:
+
+1) 
+JFrame permet de créer une fenêtre graphique
+et JPanel correspond à un panneau que l'on peut ajouter à la fenêtre graphique JFrame par
+la méthode add()
+
+3)
+public static void main(String[] args) {
+	//Permet de créer une fenêtre qui aura comme nom "Java Avancé - Graphic Display"
+	JFrame frame = new JFrame("Java Avancé - Graphic Display");
+	//Donne une taille à la fenêtre
+	frame.setSize(new Dimension(500,500));
+	//Rendre visible la fenêtre
+	frame.setVisible(true);
+	//Permet de quitter le programme dès que nous fermons la fenêtre
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	//On crée un panneau d
+	MyDisplay d = new MyDisplay();
+	//On ajoute le panneau d à la fenêtre
+	frame.add(d);
+}
+
+
+5)
+Elle est appelée avec repaint()
+
+6)
+AWT permet la création d'objets graphiques comme des Frame ou des Panel et plusieurs classes
+de swing héritent de classes d'AWT qui permmeteront alors d'ajouter des composants comme des lignes.
